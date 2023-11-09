@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    <!--Add your Firsebase Config here below. -->
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyCOPUND_susJJQywJAk6xF4e5CXBIPbth0",
+      authDomain: "ball-movement-e793d.firebaseapp.com",
+      databaseURL: "https://ball-movement-e793d-default-rtdb.firebaseio.com",
+      projectId: "ball-movement-e793d",
+      storageBucket: "ball-movement-e793d.appspot.com",
+      messagingSenderId: "721058775054",
+      appId: "1:721058775054:web:d9e842f267dddfdb29bc5f"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
